@@ -9,5 +9,6 @@ function multiplicaionRusa(){
 		n1=parseInt(n1/2);
 		n2=n2*2;
 	}
-	alert('El resultado es:'+contador);
+	document.getElementById('respuesta').innerHTML=contador;
+	return false;
 }
